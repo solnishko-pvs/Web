@@ -16,6 +16,12 @@
 $ npm install
 ```
 
+Возможно npm ругнется на отсутствие cross-env, тогда надо прописать 
+```bash
+$ npm install --save-dev cross-env
+```
+
+Если все прошло успешно, то одна и команд ниже запускает сервер на http://localhost:<номер порта из конфига>
 ```bash
 # watch mode
 $ npm run start:dev
@@ -23,3 +29,5 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+
+По адресу http://localhost:<номер порта из конфига>/api/v1 вас будет ждать swagger
