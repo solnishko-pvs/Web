@@ -21,7 +21,7 @@ $ npm install
 $ npm install --save-dev cross-env
 ```
 
-Если все прошло успешно, то одна и команд ниже запускает сервер на http://localhost:<номер порта из конфига>
+Если все прошло успешно, то одна из команд ниже запускает сервер на http://localhost:<номер порта из конфига>
 ```bash
 # watch mode
 $ npm run start:dev
